@@ -385,6 +385,8 @@ static const struct {
 	{ 215,		WTAP_ENCAP_IEEE802_15_4_NONASK_PHY },
 	/* USB packets with padded Linux-specified header */
 	{ 220,		WTAP_ENCAP_USB_LINUX_MMAPPED },
+	/* WirelessHART. Same PHY as 802.15.4, but link layer mods? */
+	{ 223,		WTAP_ENCAP_WIHART },
 	/* Fibre Channel FC-2 frame */
 	{ 224,		WTAP_ENCAP_FIBRE_CHANNEL_FC2 },
 	/* Fibre Channel FC-2 frame with Delimiter */
